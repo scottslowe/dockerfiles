@@ -1,6 +1,6 @@
-FROM node:8.16.0-alpine
+FROM node:26-alpine
 
-LABEL maintainer "Scott Lowe <scott.lowe@scottlowe.org>"
+LABEL maintainer="Scott Lowe <scott.lowe@scottlowe.org>"
 
 RUN apk add --no-cache git && \
     rm -rf /var/cache/apk/*
